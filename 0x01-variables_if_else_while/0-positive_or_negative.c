@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
-* main: entry point
+* main- entry point
 *
 * Return: Always 0 (Success)
 *
@@ -21,7 +21,7 @@ srand(time(0));
 n = rand() - RAND_MAX / 2;
 /*subtracting half the maximum value from the random number generat*/
 /*the random number will span both +ve & -ve values centred around 0*/
-printf("The number %d is ", n);
+printf("%d is ", n);
 
 if (n > 0)
 {
