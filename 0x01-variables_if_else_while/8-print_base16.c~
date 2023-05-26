@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+/**
+* main- entry point
+*
+* Return: Always 0 (Success)
+* This code prints hexadecimals using putchar
+*/
+
+int main(void)
+{
+char digit;
+
+for (digit = '0'; digit <= '9'; digit++)
+
+/*prints 0-9*/
+{
+putchar(digit);
+}
+
+for (digit = 'a'; digit <= 'f'; digit++)
+/*prints a-f*/
+{
+putchar(digit);
+}
+
+putchar('\n');/*prints newline*/
+
+return (0);
+}
