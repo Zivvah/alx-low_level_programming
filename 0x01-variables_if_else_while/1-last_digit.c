@@ -16,13 +16,11 @@
 int main(void)
 {
 int n;
+int lastDigit;
+
 srand(time(0));
-
 n = rand() - RAND_MAX / 2;
-/*subtracting half the maximum value from the random number generat*/
-/*the random number will span both +ve & -ve values centered around 0*/
-
-int lastDigit = n % 10;
+lastDigit = n % 10;
 /*the last digit of n is obtained using n % 10*/
 printf("Last digit of %d is %d ", n, lastDigit);
 
