@@ -7,18 +7,14 @@
 *
 */
 
-int main()
+int main(void)
 {
 char ch;
 for (ch = 'a'; ch <= 'z'; ch++)
-{
-/*prints lower case alphabets*/
-putchar(ch);
-}
 
-for (ch = 'A'; ch <= 'Z'; ch++)
 {
-/*prints upper case alphabets*/
+if (ch != 'q' && ch != 'e')
+/*prints a-z excluding q and e*/
 putchar(ch);
 }
 
